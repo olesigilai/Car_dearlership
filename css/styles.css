@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Hanalei+Fill&display=swap');
+
 body{
     background-image: url("/img/1.png");
     background-size: cover;
@@ -5,7 +8,9 @@ body{
 
 
 }
-#images{
-    display: none;
+.container-fluid{
+    color: white;
+    font-family: 'Ultra', serif;
+
 }
 
