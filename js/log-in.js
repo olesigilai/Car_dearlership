@@ -18,5 +18,5 @@ $("button").click(function(){
     
   }
   else {
-    alert("enter password")}
+    alert("enter correct password, anyway fill the mailchimp form ...")}
 });

@@ -140,3 +140,7 @@ form{
     justify-content: center;
 align-items: center;
 }
+#navbarNav{
+    font-size: 20px;
+    font-family: 'Lemon', cursive;
+}
