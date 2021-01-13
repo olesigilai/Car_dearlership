@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 #head {
-   background-color: #2384d8; 
+   
    text-align: center;
 }
 #whoWeAre, #note {
@@ -16,4 +16,10 @@ body {
 }
 #safe {
     margin-top: 3rem;
+}
+footer{
+    background-color: rgb(55, 169, 207);
+    text-align: center;
+    padding-bottom: 1rem;
+    
 }
