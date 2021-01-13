@@ -23,4 +23,6 @@ body{
     background-color: transparent;
     float: left;
 }
-
+.card1{
+    float: right;
+}
