@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/log-in.css" media="all">
+  <title>Document</title>
+</head>
+
+  <body style="margin-bottom: 1rem;">
+    <nav class="navbar navbar-expand-lg navbar-collapse bg-info">
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="logo"> <img src="./img/WCD_ICON_Red.png" alt="" height="40" width="40"></div>
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html" style="color: aliceblue;">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html" style="color: aliceblue;">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="buy .html" style="color: aliceblue;">Buy Now</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="log-in .html" style="color: aliceblue;">Contact Us</a>
+          </li>
+        </div>
+        </ul>
+    
+    </nav>
+
+    <div class="container">
+      <form class="form" id="login">
+        <h1 class="form__titile">login</h1>
+        <div class="form__message form__message--error">incorrect username/password combination.</div>
+        <div class="form__input-group">
+          <input type="text" class="form__input" auto focus placeholder="username or email">
+          <div class="form __input-error-message">this is an error message</div>
+  
+        </div>
+        <div class="form__input-group">
+          <input type="password" class="form__input" auto focus placeholder="password">
+          <div class="form __input-error-message"></div>
+  
+        </div>
+        <button class="form__button" type="submit">continue</button>
+        <p class="form__text">
+          <a href="#"class="form__link">forgot your password ?</a>
+        </p>
+        <p class="form__text">
+          <a class="form__link"id="linkCreateAccount">Dont have an account? create account</a>
+        </p>
+  
+  
+  
+      </form>
+    
+    </div>
+  
+</body>
+</html>
+
