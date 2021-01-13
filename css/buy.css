@@ -8,3 +8,12 @@ footer{
     padding-bottom: 1rem;
     
 }
+body{
+    background-image: url("/img/6.jpeg");
+    background-size: cover;
+
+}
+
+#Order{
+    background-color:grey;
+}
