@@ -1,17 +1,22 @@
 
-function validate(){
-    var username=document.getElementById(username).Value;
-    var password=document.getElementById(password).Value;
+$("button").click(function(){
+  var user = document.getElementById("user").value;
+  var password = document.getElementById("password").value;
+  
+  if (user ===""){
+    alert("enter your name")
+  }
+      
+ 
 
-    if( username== "admin"&& password=="user"){
 
-        alert("log in succesful");
-        return false;
-
-    }
-    else{
-         alert ("login failed")
-    }
-       
+      if (password == "12345"){
+        alert("Dear " +   user + " we have taken your email and password ." + 
+        " you can anytime login at your ow pleasure. Click Ok to continue and register wit our mailchimp.");
+      
+  
     
-} 
+  }
+  else {
+    alert("enter password")}
+});

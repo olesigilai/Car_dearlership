@@ -42,7 +42,80 @@
      <h3 style="text-align: center;color: black;">
     <strong>Buy</strong>
     </h3>
-    <div class="card" style="color: black;">
+    <div class="container">
+      <form action="" id="order">
+          <h2 style="text-align: center;color: white;"><strong> Place an Order Now</strong></h2>
+      <div class="card" style="color: white;">
+          <p>select the car brand </p>
+          <select class="form-control form-control-sm" id="brand">
+            <br>
+            <option>select</option>
+            <option value="Mercedes Benz">Mercedes Benz</option>
+            <option value="BMW">BMW</option>
+            <option value="Toyota Allion">Toyota Allion</option>
+          </select>
+          <p>Choose the Transmission</p>
+          <select class="form-control form-control-sm" id="transmission">
+            <br>
+            <option>select</option>
+            <option value="4000000">Manual</option>
+            <option value="3000000"> Automatic</option>
+          </select>
+        <p>Choose the Color</p> 
+        <select class="form-control form-control-sm" id="color">
+          <option>select</option>
+          <option value="200000">Red</option>
+          <option value="150000">White</option>
+          <option value="250000">Grey</option>
+        </select>
+      <p>Choose Car Fuel</p>
+        <select class="form-control form-control-sm" id="fuel">
+          <option>select</option>
+          <option value="100000">Petrol</option>
+          <option value="200000">Diesel</option>
+          
+        </select>
+        
+      </div>
+      ​
+      </form>
+      ​
+      <form id="pricing">
+        <option value="one"></option>
+        <!-- <div class="form-group">
+              <label for="" >Number of Pizza </label>
+              <br>
+              <input type="number" class="form-control" id="number" placeholder="" required  min="1"/>
+            </div> -->
+            <button type="button" class="btn btn-success btn-lg" style="margin-left: 40%;" id="checkout">Order</button>
+            
+          </form>
+          </div>
+      ​
+      ​
+      ​
+      <br><br>
+      <div class="container" id="contain">
+      <div class="col-sm-7" id="orderPut">
+                     
+        <div class="orderCalculation">
+          <h2>Your Order is:</h2>
+          <div id="your-orders">
+            <table class="table table-sm  ">
+              <thead>
+                <tr>
+                  <th scope="col">Brand</th>
+                  <th scope="col">Transmission</th>
+                  <th scope="col">Color</th>
+                  <th scope="col">Fuel</th>                                 
+                  <th scope="col">Total</th>
+                </tr>
+              </thead>
+              <tbody id="ordersTaken">
+                
+              </tbody>
+            </table>
+    <!-- <div class="card" style="color: black;">
     <p>choose type of car you want</p>
 
     <select class="form-control form-control-sm" id="type">
@@ -72,7 +145,7 @@
       <option value="25000">electric @$25000</option>
     </select>
     <button type="button" class="btn btn-success btn-lg" style="margin-left: 40%;" id="checkout">Order</button>
-    </div>
+    </div> -->
 
 
    </div> 
