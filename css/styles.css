@@ -11,10 +11,16 @@ body{
 .container-fluid{
     color: white;
     font-family: 'Ultra', serif;
+    text-align: center;
+    float:center;
 
 }
 #navbarNav{
     font-size: 20px;
     font-family: 'Lemon', cursive;
+}
+.card{
+    background-color: transparent;
+    float: left;
 }
 
