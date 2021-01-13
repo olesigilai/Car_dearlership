@@ -1,6 +1,4 @@
-body {
-    font-family: 'Roboto Condensed', sans-serif;
-}
+
 #head {
    background-color: #2384d8; 
    text-align: center;
@@ -16,4 +14,34 @@ body {
 }
 #safe {
     margin-top: 3rem;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Hanalei+Fill&display=swap');
+
+body{
+    background-image: url("/img/1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  font-family: 'Roboto Condensed', sans-serif;
+
+
+}
+.container-fluid{
+    color: white;
+    font-family: 'Ultra', serif;
+    text-align: center;
+    float:center;
+
+}
+#navbarNav{
+    font-size: 20px;
+    font-family: 'Lemon', cursive;
+}
+.card{
+    background-color: transparent;
+    float: left;
+}
+.card1{
+    float: right;
 }
