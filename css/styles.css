@@ -36,5 +36,9 @@ body{
 .card1{
     float: right;
 }
+.container-fluid :hover{
+    color: blue;
+    text-decoration: underline;
+}
 
 
