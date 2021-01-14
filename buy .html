@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/buy.css" media="all">
+  <title>buy</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-collapse bg-info">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="logo"> <img src="./img/WCD_ICON_Red.png" alt="" height="40" width="40"></div>
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html" style="color: aliceblue;">Home <span
+              class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html" style="color: aliceblue;">About Us</a>
+        </li>
+        <li class="nav-item">
+
+          <a class="nav-link" href="buy .html" style="color: aliceblue;">Buy Now</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="log-in .html" style="color: aliceblue;">Log In</a>
+
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html" style="color: aliceblue;">Contact Us</a>
+
+        </li>
+    </div>
+    </ul>
+
+  </nav>
+  <div id="card">
+
+    <img src="./img/bmw.jpg" alt="" height="240" width="280">
+     <img src="./img/bmw1.jpg" alt="" height="240" width="280">
+    <img src="./img/greym.jpg" alt="" height="240" width="280">
+    <img src="./img/me2.png" alt="" height="240" width="280">
+    <img src="./img/merccc.jpeg" alt="" height="240" width="280">
+    <img src="./img/tot2.jpg" alt="" height="240" width="280">
+    <img src="./img/toto1.jpg" alt="" height="240" width="280">
+    <img src="./img/toto1.jpg" alt="" height="240" width="280">
+  </div>
+
+
+
+<br>
+  <div class="container">
+    <form action id="Buy">
+      <h3 style="text-align: center;color:white;" id="h3" onclick="">
+        <strong>click here to View our stock</strong>
+      </h3>
+      <div class="container">
+        <form action="" id="order">
+          <h2 style="text-align: center;color: white;"><strong> Place an Order Now</strong></h2>
+          <div class="card" style="background-color: black;">
+            <p>select the car brand </p>
+            <select class="form-control form-control-sm" id="brand">
+              <br>
+              <option>select</option>
+              <option value="Mercedes Benz">Mercedes Benz</option>
+              <option value="BMW">BMW</option>
+              <option value="Toyota Allion">Toyota Allion</option>
+            </select>
+            <p>Choose the Transmission</p>
+            <select class="form-control form-control-sm" id="transmission">
+              <br>
+              <option>select</option>
+              <option value="4000000">Manual</option>
+              <option value="3000000"> Automatic</option>
+            </select>
+            <p>Choose the Color</p>
+            <select class="form-control form-control-sm" id="color">
+              <option>select</option>
+              <option value="200000">Red</option>
+              <option value="150000">White</option>
+              <option value="250000">Grey</option>
+            </select>
+            <p>Choose Car Fuel</p>
+            <select class="form-control form-control-sm" id="fuel">
+              <option>select</option>
+              <option value="100000">Petrol</option>
+              <option value="200000">Diesel</option>
+
+            </select>
+
+          </div>
+          ​
+        </form>
+        ​
+        <form id="pricing">
+          <option value="one"></option>
+
+          <button type="button" class="btn btn-success btn-lg" style="margin-left: 40%;" id="checkout">Order</button>
+
+        </form>
+      </div>
+      ​
+      ​
+      ​
+      <br><br>
+      <div class="container" id="contain">
+        <div class="col-sm-7" id="orderPut">
+
+          <div class="orderCalculation" style="background-color:beige;">
+            <h2>Your Order is:</h2>
+            <div id="your-orders">
+              <table class="table table-sm  " style="background-color:beige;">
+                <thead>
+                  <tr>
+                    <th scope="col">Brand</th>
+                    <th scope="col">Transmission</th>
+                    <th scope="col">Color</th>
+                    <th scope="col">Fuel</th>
+                    <th scope="col">Total</th>
+                  </tr>
+                </thead>
+                <tbody id="ordersTaken">
+
+                </tbody>
+              </table>
+
+
+
+            </div>
+            </div>
+            </div>
+      </div>
+      </form>
+      </div>
+
+            <script src="https://code.jquery.com/jquery-3.5.1.js"
+              integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <script src="./js/buy.js"></script>
+</body>
+
+</html>
