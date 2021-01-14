@@ -1,0 +1,26 @@
+
+  img{
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    max-zoom: 30;
+    min-zoom: -20;
+    
+}
+h1{
+    text-align: center;
+  color: rgb(224, 11, 11);
+  font-size:30px ;
+}
+h2,h5{
+    text-align: center;
+    color: rgb(12, 61, 223);
+    font-size: 25px;
+    padding-left:20px ;
+}
+p{
+    text-align: left;
+    color: rgb(39, 211, 48);
+    font-size: 20px;
+    padding-left:20px ;
+}
