@@ -1,11 +1,11 @@
-.img{
+/* .img{
     width: 50%;
     height: auto;
     border-radius: 50%;
     max-zoom: 30;
     min-zoom: -20;
     
-}
+} */
 #navbarNav{
     font-size: 20px;
     font-family: 'Lemon', cursive;
@@ -19,16 +19,29 @@ h2,h5{
     text-align: center;
     color: rgb(12, 61, 223);
     font-size: 18px;
-    padding-left:20px ;
+
 }
 p{
-    text-align: left;
+    
     
     font-size: 20px;
-    padding-left:20px ;
+    
 }
 body{
     background-image: url("/img/key.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
+}
+#one{
+    display: flex;
+    align-items: center;
+}
+#two{
+    float: right;
+    margin-left: 5;
+    
+    
+}
+.Staff{
+    display: inline;
 }

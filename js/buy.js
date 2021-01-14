@@ -30,10 +30,10 @@ Car.prototype.carC = function () {
 }
 Car.prototype.carT =function(){
     if (this.carFuel == 200000){
-        return "Manual"
+        return "Diesel"
     }
     else if (this.carFuel == 100000){
-        return "Automatic"
+        return "Petrol"
     }
     
 }

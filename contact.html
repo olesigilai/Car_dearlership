@@ -52,45 +52,26 @@
 
 </div>
 
-  <div class="container-fluid">
-    <div class="container pt-4">
-      <div class="row">
-        <div class="col-md-4 mr-md-2">
-          <div class="card">
-            <div class="card-body" style="background-color: lightblue; align-items: left;">
-              <h5 class="card-title">Get In Touch</h5>
-              <p>Car dealership</p>
-              <h5>Address</h5>
-              <p>Kiambu RD Ridgeways Opp Ridgeview inn</p>
-              <h5>Email</h5>
-              <p>info@cardealers.go.ke</p>
-              <h5>Phone</h5>
-              <p>(+254) 722-000000</p>
-            </div>
-          </div>
-          <br>
-          
-        </div>
+  -->
         
-        <div class="col-md-8  ml-md-2">
-          <div class="card">
-          <div class="container">
+        <div class="col-md-8  ml-md-2" >
+          <div class="card" id="two">
+          <div class="container" >
             <h2 class="my-3 pt-1">Please fill out this form to contact us</h2>
             <hr>
             <div class="row">
               <div class="col-md-6">
-                <input type="text" class="form-control my-1" placeholder="First name" aria-label="First name">
-                <input type="text" class="form-control my-2" placeholder="Email" aria-label="Email">
+                <input type="text" class="form-control my-1" id="first" placeholder="First name" aria-label="First name">
+                <input type="text" class="form-control my-2" id="email" placeholder="Email" aria-label="Email">
               </div>
               <div class="col-md-6">
-                <input type="text" class="form-control my-1" placeholder="Last name" aria-label="Last name">
-                <input type="text" class="form-control my-2" placeholder="Phone Number" aria-label="Phone Number">
+                <input type="text" class="form-control my-1" id="last" placeholder="Last name" aria-label="Last name">
+                <input type="text" class="form-control my-2" id="number" placeholder="Phone Number" aria-label="Phone Number">
               </div>
               
-              <div class="col-md-12">
-                <textarea class="w-100" name="message" id="" cols="40" rows="2">Message</textarea>
-
-
+              <div class="form-group">
+                <label for="formControlTextarea1"></label>
+                <textarea class="form-control" id="message" placeholder=" Your message here "rows="1" style="width: 400%;"></textarea>
               </div>
               <div class="col-md-12">
                 <button type="button" class="btn btn-outline-danger my-2 w-100">Submit</button>
@@ -106,19 +87,35 @@
           </div>
 
           </div>
+           <div class="container" id="one">
+    <div class="container pt-4">
+      <div class="row">
+        <div class="col-md-4 mr-md-2">
+          <div class="card">
+            <div class="card-body" style="background-color: lightblue; ">
+              <h5 class="card-title">Get In Touch</h5>
+              <p>Car dealership</p>
+              <h5>Address</h5>
+              <p>Kiambu RD Ridgeways Opp Ridgeview inn</p>
+              <h5>Email</h5>
+              <p>info@cardealers.go.ke</p>
+              <h5>Phone</h5>
+              <p>(+254) 722-000000</p>
+            </div>
+          </div>
+          <br>
           
+        </div>
       </div>
-          
-      </div>
-
     </div>
-   
   </div>
-  <h1 >Our Staff</h1>
+          <!-- <div class="Staff">
+  
+  
   <div class="row">
    <div class="column">
      <div class="card">
-       <img src="./image/img1.jpeg" alt="Joe" style="width:80%" class="img">
+       <img src="./image/img1.jpeg" alt="Joe">
        <div class="container">
          <h2>Joe Don</h2>
          <p class="title">CEO</p>
@@ -154,10 +151,11 @@
        <div class="container">
          <h2>Steve Harvey</h2>
          <p class="title">Sales manager</p>
+        </div> -->
 
   <script src="https://code.jquery.com/jquery-3.5.1.js" 
   integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./js/scripts.js"></script>
+    <script src="./js/contacts.js"></script>
 </body>
 </html>
