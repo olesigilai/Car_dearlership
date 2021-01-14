@@ -33,7 +33,7 @@ p {
 }
 
 body {
-    background-image: url("/img/key.jpeg");
+    background-image: url("../img/key.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
 }
