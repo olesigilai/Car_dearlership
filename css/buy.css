@@ -1,25 +1,24 @@
-#navbarNav{
-    font-size: 20px;
-    font-family: 'Lemon', cursive;
+#navbarNav {
+  font-size: 20px;
+  font-family: "Lemon", cursive;
 }
-footer{
-    background-color: rgb(55, 169, 207);
-    text-align: center;
-    padding-bottom: 1rem;
-    
+footer {
+  background-color: rgb(55, 169, 207);
+  text-align: center;
+  padding-bottom: 1rem;
 }
 
-form{
-    background-color: black;
-   color: white;
+form {
+  background-color: black;
+  color: white;
 }
-#Order{
-    background-color:grey;
+#Order {
+  background-color: grey;
 }
-#card{
-    display: inline;
-    display: none;
+#card {
+  display: inline;
+  display: none;
 }
-#ordersTaken{
-    display: none;
+#ordersTaken {
+  display: none;
 }
