@@ -8,7 +8,7 @@ function Car(carBrand,carTransmission,carColor,carFuel) {
 }
 var carPrice= [4000000,3000000]
 Car.prototype.totalPrice = function(){
-    return (this.carColor + this.carFuel + this.pizzaSize)
+    return (this.carColor + this.carFuel + this.carTransmission)
 };
 Car.prototype.carS = function () {
     if (this.carTransmission== 4000000) {
@@ -60,11 +60,11 @@ $("#checkout").click(function (event) {
     OrderNew.push(newCar);
     console.log(OrderNew)
     
-    $("#Flavour").val("");
-    $("#Size").val("");
-    $("#Crust").val("");
-    $("#Topping").val("");
-    $("#number").val("");
+    $("#brand").val("");
+    $("#transmission").val("");
+    $("#color").val("");
+    $("#fuel").val("");
+   
      
     totalAmount = 0
     for (let i = 0; i < OrderNew.length; i++ ){
@@ -80,7 +80,7 @@ $("#checkout").click(function (event) {
         "<td>" +
         newCar.carS () +
         " " +
-        newCar.carBrand + 
+        newCar.carTransmission+ 
         "</td>" +
         "<td>" +
         newCar.carC () +
@@ -97,4 +97,13 @@ $("#checkout").click(function (event) {
         "</td>" +
         "</tr>"
 
-    );});
+    );
+    $("#ordersTaken").append("");
+    if (OrderNew.length > 0) {
+        $("#form-heading").empty();
+        $("#form-heading").append("Make A New Order");
+    }
+    
+    $("#totalAmount").append(totalAmount);
+
+});
