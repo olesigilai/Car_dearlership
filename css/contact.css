@@ -1,11 +1,4 @@
-/* .img{
-    width: 50%;
-    height: auto;
-    border-radius: 50%;
-    max-zoom: 30;
-    min-zoom: -20;
-    
-} */
+
 #navbarNav {
     font-size: 20px;
     font-family: 'Lemon', cursive;
@@ -33,7 +26,7 @@ p {
 }
 
 body {
-    background-image: url("..img/key.jpeg");
+    background-image: url("../img/key.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -41,7 +34,7 @@ body {
 #one {
     display: flex;
     align-items: center;
-    margin-top: -30%;
+    margin-top: -29%;
     float: left;
 
 }
@@ -49,7 +42,7 @@ body {
 #two {
     float: right;
     margin-left: 50%;
-    margin-top: 10%;
+    margin-top: 7%;
 
 
 }
