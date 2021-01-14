@@ -8,12 +8,18 @@ footer{
     padding-bottom: 1rem;
     
 }
-body{
-    background-image: url("/img/6.jpeg");
-    background-size: cover;
 
+form{
+    background-color: black;
+   color: white;
 }
-
 #Order{
     background-color:grey;
+}
+#card{
+    display: inline;
+    display: none;
+}
+#ordersTaken{
+    display: none;
 }

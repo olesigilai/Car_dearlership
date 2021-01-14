@@ -107,3 +107,15 @@ $("#checkout").click(function (event) {
     $("#totalAmount").append(totalAmount);
 
 });
+$(document).ready(function() {
+    $("#h3").click(function() {
+      $("#card").fadeIn();
+      
+    });
+    $("#card").click(function() {
+        $("#card").fadeOut();
+  });
+  $("button").click(function() {
+    $("#ordersTaken").fadeIn();
+});
+});
