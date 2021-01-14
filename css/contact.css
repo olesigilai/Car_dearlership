@@ -35,10 +35,14 @@ body{
 #one{
     display: flex;
     align-items: center;
+    margin-top: -30%;
+    float: left;
+    
 }
 #two{
     float: right;
-    margin-left: 5;
+    margin-left: 50%;
+    margin-top:10%;
     
     
 }
