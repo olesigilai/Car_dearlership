@@ -1,12 +1,4 @@
 
-  img{
-    width: 50%;
-    height: auto;
-    border-radius: 50%;
-    max-zoom: 30;
-    min-zoom: -20;
-    
-}
 h1{
     text-align: center;
   color: rgb(224, 11, 11);
@@ -24,3 +16,42 @@ p{
     font-size: 20px;
     padding-left:20px ;
 }
+
+.container form {
+  background-color: grey;
+  color: white;
+}
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&family=Hanalei+Fill&display=swap");
+
+body {
+  background-image: url("/img/1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container-fluid {
+  color: white;
+  font-family: "Ultra", serif;
+  text-align: center;
+  float: center;
+}
+#navbarNav {
+  font-size: 20px;
+  font-family: "Lemon", cursive;
+}
+.card {
+  background-color: transparent;
+  float: left;
+}
+.card1 {
+  float: right;
+}
+.container-fluid :hover {
+  color: blue;
+  text-decoration: underline;
+}
+
